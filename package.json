@@ -1,0 +1,42 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.8.0",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "eslint": "^8.24.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "tsc --watch --preserveWatchOutput"
+  },
+  "name": "clashcrown-wraproyale",
+  "version": "1.0.1",
+  "description": "API Wrapper for official ClashRoyale API",
+  "main": "dist/index.js",
+  "types": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanQuenga/wraproyale.git"
+  },
+  "keywords": [
+    "clash",
+    "royale",
+    "supercell",
+    "clashroyale",
+    "api",
+    "wrapper"
+  ],
+  "author": "Juan Quenga <JuanQuenga@gmail.com> (https://juanquenga.com/)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/JuanQuenga/wraproyale/issues"
+  },
+  "homepage": "https://github.com/JuanQuenga/wraproyale#readme"
+}

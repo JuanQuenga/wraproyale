@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ChallengeMode = void 0;
+var ChallengeMode;
+(function (ChallengeMode) {
+    ChallengeMode[ChallengeMode["Grand"] = 65000000] = "Grand";
+    ChallengeMode[ChallengeMode["Classic"] = 65000001] = "Classic";
+    ChallengeMode[ChallengeMode["KingsCup"] = 65000002] = "KingsCup";
+    ChallengeMode[ChallengeMode["DoubleElixir"] = 65000003] = "DoubleElixir";
+    ChallengeMode[ChallengeMode["BlindDeck"] = 65000004] = "BlindDeck";
+    ChallengeMode[ChallengeMode["DraftMode"] = 65000005] = "DraftMode";
+    ChallengeMode[ChallengeMode["ThreeBridges"] = 65000006] = "ThreeBridges";
+    ChallengeMode[ChallengeMode["Hero"] = 65000007] = "Hero";
+    ChallengeMode[ChallengeMode["ElectroWizard"] = 65000008] = "ElectroWizard";
+    ChallengeMode[ChallengeMode["BattleRamClassic"] = 65000010] = "BattleRamClassic";
+    ChallengeMode[ChallengeMode["BattleRamGrand"] = 65000011] = "BattleRamGrand";
+    ChallengeMode[ChallengeMode["DraftModeInsane"] = 65000012] = "DraftModeInsane";
+    ChallengeMode[ChallengeMode["Team"] = 65000013] = "Team";
+    ChallengeMode[ChallengeMode["RetroRoyale"] = 65000014] = "RetroRoyale";
+    ChallengeMode[ChallengeMode["TeamVsEnemy"] = 65000015] = "TeamVsEnemy";
+})(ChallengeMode = exports.ChallengeMode || (exports.ChallengeMode = {}));
